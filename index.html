@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Eric Mills Personal Web Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    .header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    
-    .bio {
-      margin-bottom: 20px;
-    }
-    
-    .projects {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    
-    .projects a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    
-    .picture {
-      text-align: center;
-    }
-    
-    .picture img {
-      max-width: 200px;
-      border-radius: 50%;
-    }
-  </style>
+  <title>Eric Mills</title>
+  <link rel="icon" href="images/favicon.png"> <!-- round off corners with photoshop -->
+  <link rel="stylesheet" type="text/css" href="hello.css">
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <h1>Eric Mills</h1>
-    </header>
+  <div class="container" style="background-color: #b8e0b8">
+    <div class="side">
 
-    <p>2nd Year Financial Math/Stats and Computer Science Major at the University of Sydney</p>
-    
-    <section class="bio">
+      <div class="header"><h1 class="splash">Eric Mills</h1></div>
 
-    </section>
-    
-    <section class="projects">
-      <h2>My GitHub Projects</h2>
-      <a href="https://github.com/ericdotmills5/jackknife_resampling">JavaScript Online Jackknife Resampling</a>
-      <a href="https://github.com/ericdotmills5/java-oop-game">Java WizardTD Game</a>
-      <a href="https://github.com/ericdotmills5/portfolio-generator">Python Financial Portfolio Generator</a>
-      
-    </section>
-    
-    <section class="picture">
-      <img src="professional picture.png" alt="My Picture">
-    </section>
+      <div class="buttons">
+        <a class="button" href="#WizardTD Game (Java)">WizardTD Game (Java)</a>
+        <a class="button" href="#Portfolio Generator (Python)">Portfolio Generator (Python)</a>
+        <a class="button" href="#Online Jackknife Tool (C)">Online Jackknife Tool (C)</a>
+        <a class="button" href="#About Me">About Me</a>
+        <a class="button" href="#Contact Me!">Contact Me</a>
+      </div>
+    </div>
+    <div class="side">
+
+      <img src="images/splash.jpg" alt="eric at whiteboard">
+
+    </div>
   </div>
+
+  <div class="container" id="WizardTD Game (Java)" style="background-color: #b8e0e0">
+    <div class="side">
+
+      <img src="images/wizardTD.png">
+
+    </div>
+
+    <div class="side">
+
+      <div class="header"><h1 style="font-size:3.5vw">WizardTD Game (Java)</h1></div>
+      <p>This game required me to learn oop and java to make a game</p>
+
+      <a class="button button-bottom-right" href="https://github.com/ericdotmills5/java-oop-game" target="_blank" style="right:20px"><img src="images/github.png">Github Repo</a>
+
+    </div>
+  </div>
+
+  <div class="container" id="Portfolio Generator (Python)" style="background-color: #b8e0e0">
+    <div class="side">
+
+      <div class="header"><h1 style="font-size:3.5vw">Portfolio Generator (Python)</h1></div>
+      <p>this made me think abt financial maths</p>
+
+      <a class="button button-bottom-right" href="https://github.com/ericdotmills5/portfolio-generator" target="_blank" style="left:20px"><img src="images/github.png">Github Repo</a>
+
+    </div>
+
+    <div class="side">
+
+      <img src="images/portfolio.png">
+
+    </div>
+  </div>
+
+  <div class="container" id="Online Jackknife Tool (C)" style="background-color: #b8e0e0">
+    <div class="side">
+
+      <img src="images/jackknife.jpeg" style="border-radius: 0"> <!-- border radius altered, change this when you replace pictures -->
+
+    </div>
+
+    <div class="side">
+
+      <div class="header"><h1 style="font-size:3.5vw">Online Jackknife Tool (C)</h1></div>
+      <p>this project is a work in progress</p>
+
+      <a class="button button-bottom-right" href="https://github.com/ericdotmills5/jackknife_resampling" target="_blank" style="right:20px"><img src="images/github.png">Github Repo</a>
+
+    </div>
+  </div>
+
+  <div class="container" id="About Me" style="background-color: #e0b8e0">
+    <div class="side">
+      <div class="header"><h1 style="font-size:5vw">About Me</h1></div>
+      <p>I am a 2nd year student at the University of Sydney majoring in Computer Science, Financial Mathematics and Statistics.</p>
+      <p>I am currently teaching at <a href="https://www.talent-100.com.au/mentors/profile/eric-mills/" target="_blank">Talent 100</a> as an acedemic mentor in HSC Mathematics, Physics, and Chemistry.</p>
+      <p>While I am not studying or "LeetCoding", my hobbies include casual swimming and exploring maths outside my curriculum.</p>
+    </div>
+    <div class="side">
+
+      <img src="images/aboutme.jpg" alt="eric eating dinner"> <!-- resize this better so less squished -->
+
+    </div>
+  </div>
+
+  <div class="container" id="Contact Me!" style="background-color: #e0b8e0">
+    <div class="side">
+
+      <img src="images/contact.jpg">
+
+    </div>
+
+    <div class="side">
+
+      <div class="header"><h1 style="font-size:5vw">Contact Me!</h1></div>
+      <p class="body-text">here are my links</p>
+
+    </div>
+  </div>
+   
 </body>
 </html>

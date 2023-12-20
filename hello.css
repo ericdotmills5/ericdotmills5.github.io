@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container img {
+  flex-basis: 50%;
+  width: 55vw;
+  height: 50vw;
+  margin: 1vw;
+  border-radius: 13%;
+}
+
+
+.side {
+  flex: 1;
+  position: relative;
+}
+
+.container .header h1 {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.splash {
+
+  font-size: 5vw;
+
+
+
+}
+
+
+.body-text {
+  font-size: 3vw;
+}
+
+.container .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  padding: 0.4vw 1.2vw;
+  border-radius: 100px;
+  font-family: Tahoma, sans-serif;
+  
+  text-align: center;
+  
+}
+
+.container .buttons a {
+  margin: 0.75vw;
+  border: 0.3vw solid red;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 2vw;
+  width: 25vw;
+}
+
+.button-bottom-right {
+  position: absolute;
+  bottom: 20px;
+
+  border: 0.3vw solid grey;
+  background-color: #000000;
+  color: white;
+  font-size: 1.2vw;
+  align-items: center;
+  height:2vw;
+  width: 10.5vw;
+}
+
+.button-bottom-right img {
+  height: 1.7vw;
+  max-width: 1.7vw;
+}
