@@ -6,102 +6,131 @@
   <link rel="stylesheet" type="text/css" href="hello.css">
 </head>
 <body>
-  <div class="container" style="background-color: #b8e0b8">
-    <div class="side">
+  <div style="background-color: #bbbbbb">
+    <div class="container" style="background-color: #bbbbbb">
+      <div class="side">
 
-      <div class="header"><h1 class="splash">Eric Mills</h1></div>
+        <div class="header"><h1 class="splash" style="font-size: 4vw;">Eric Mills</h1></div>
 
-      <div class="buttons">
-        <a class="button" href="#WizardTD Game (Java)">WizardTD Game (Java)</a>
-        <a class="button" href="#Portfolio Generator (Python)">Portfolio Generator (Python)</a>
-        <a class="button" href="#Online Jackknife Tool (C)">Online Jackknife Tool (C)</a>
-        <a class="button" href="#About Me">About Me</a>
-        <a class="button" href="#Contact Me!">Contact Me</a>
+        <div class="buttons">
+          <a class="button" href="#WizardTD Game (Java)">WizardTD Game (Java)</a>
+          <a class="button" href="#Portfolio Generator (Python)">Portfolio Generator (Python)</a>
+          <a class="button" href="#Online Jackknife Tool (C)">Online Jackknife Tool (C)</a>
+          <a class="button" href="#About Me">About Me</a>
+          <a class="button" href="#Contact Me!">Contact Me!</a>
+        </div>
+      </div>
+      <div class="side">
+
+        <div class="img-stack">
+          <img src="images/splash1.jpg" alt="eric at whiteboard" class="img-stack-1">
+          <img src="images/splash2.png" alt="eric at on pc" class="img-stack-2">
+        </div>
+
       </div>
     </div>
-    <div class="side">
+  </div>
+    
+  <div style="background-color: #eeeeee">
+    <div class="container" id="WizardTD Game (Java)" style="background-color: #eeeeee">
+      <div class="side">
 
-      <img src="images/splash.jpg" alt="eric at whiteboard">
+        <img src="images/wizardTD.png" class="img-self  left-img-shift">
 
+      </div>
+
+      <div class="side">
+
+        <div class="header"><h1 style="font-size:3.5vw">WizardTD Game (Java)</h1></div>
+        <p class="body-text">This game involves building towers to defend against oncoming waves of enemies. It was created as an assignment for <a href="https://www.sydney.edu.au/units/INFO1113" target="_blank">INFO1113</a>.</p>
+        <p class="body-text">Skills:</p>
+        <ul class="body-text">
+          
+          <li>Object Oriented Programing Communication</li>
+          <li>Debugging with Unit/Integration Testing</li>
+          <li>Application Interfaces and Game Design</li>
+        </ul>
+
+        <a class="button button-bottom-right" href="https://github.com/ericdotmills5/java-oop-game" target="_blank" style="right:20px"><img src="images/github.png" class="button-img">Github Repo</a>
+
+      </div>
+    </div>
+
+    <div class="container" id="Portfolio Generator (Python)" style="background-color: #eeeeee">
+      <div class="side">
+
+        <div class="header"><h1 style="font-size:2.5vw">Portfolio Generator (Python)</h1></div>
+        <p class="body-text">This program calculates an optimal portfolio, given budget constraints and aversion to risk.</p>
+
+        <a class="button button-bottom-right" href="https://github.com/ericdotmills5/portfolio-generator" target="_blank" style="left:20px"><img src="images/github.png" class="button-img">Github Repo</a>
+
+      </div>
+
+      <div class="side">
+
+        <img src="images/portfolio.png" class="img-self right-img-shift">
+
+      </div>
+    </div>
+
+    <div class="container" id="Online Jackknife Tool (C)" style="background-color: #eeeeee">
+      <div class="side">
+
+        <img src="images/jackknife.jpeg" style="border-radius: 0" class="img-self left-img-shift"> <!-- border radius altered, change this when you replace pictures -->
+
+      </div>
+
+      <div class="side">
+
+        <div class="header"><h1 style="font-size:3.3vw">Online Jackknife Tool (C)</h1></div>
+        <p class="body-text">This project is currently a work in progress.</p>
+        <p class="body-text">It will be designed to complement my dad's neuroscience research paper which will use Jackknife Resampling to analyse his data.</p>
+        <p class="body-text">JavaScript and NodeJS will be used for frontend, while backend will be handled by C</p>
+
+        <a class="button button-bottom-right" href="https://github.com/ericdotmills5/jackknife_resampling" target="_blank" style="right:20px"><img src="images/github.png" class="button-img">Github Repo</a>
+
+      </div>
     </div>
   </div>
 
-  <div class="container" id="WizardTD Game (Java)" style="background-color: #b8e0e0">
-    <div class="side">
-
-      <img src="images/wizardTD.png">
-
-    </div>
-
-    <div class="side">
-
-      <div class="header"><h1 style="font-size:3.5vw">WizardTD Game (Java)</h1></div>
-      <p>This game required me to learn oop and java to make a game</p>
-
-      <a class="button button-bottom-right" href="https://github.com/ericdotmills5/java-oop-game" target="_blank" style="right:20px"><img src="images/github.png">Github Repo</a>
-
-    </div>
-  </div>
-
-  <div class="container" id="Portfolio Generator (Python)" style="background-color: #b8e0e0">
-    <div class="side">
-
-      <div class="header"><h1 style="font-size:3.5vw">Portfolio Generator (Python)</h1></div>
-      <p>this made me think abt financial maths</p>
-
-      <a class="button button-bottom-right" href="https://github.com/ericdotmills5/portfolio-generator" target="_blank" style="left:20px"><img src="images/github.png">Github Repo</a>
-
-    </div>
-
-    <div class="side">
-
-      <img src="images/portfolio.png">
-
-    </div>
-  </div>
-
-  <div class="container" id="Online Jackknife Tool (C)" style="background-color: #b8e0e0">
-    <div class="side">
-
-      <img src="images/jackknife.jpeg" style="border-radius: 0"> <!-- border radius altered, change this when you replace pictures -->
-
-    </div>
-
-    <div class="side">
-
-      <div class="header"><h1 style="font-size:3.5vw">Online Jackknife Tool (C)</h1></div>
-      <p>this project is a work in progress</p>
-
-      <a class="button button-bottom-right" href="https://github.com/ericdotmills5/jackknife_resampling" target="_blank" style="right:20px"><img src="images/github.png">Github Repo</a>
-
-    </div>
-  </div>
-
-  <div class="container" id="About Me" style="background-color: #e0b8e0">
+  <div class="container" id="About Me" style="background-color: #cecece">
     <div class="side">
       <div class="header"><h1 style="font-size:5vw">About Me</h1></div>
-      <p>I am a 2nd year student at the University of Sydney majoring in Computer Science, Financial Mathematics and Statistics.</p>
-      <p>I am currently teaching at <a href="https://www.talent-100.com.au/mentors/profile/eric-mills/" target="_blank">Talent 100</a> as an acedemic mentor in HSC Mathematics, Physics, and Chemistry.</p>
-      <p>While I am not studying or "LeetCoding", my hobbies include casual swimming and exploring maths outside my curriculum.</p>
+      <ul class="body-text">
+        <li>2nd year student at the University of Sydney majoring in Computer Science, Financial Mathematics and Statistics.</li>
+        <li>Teaching at <a href="https://www.talent-100.com.au/mentors/profile/eric-mills/" target="_blank">Talent 100</a> as an academic mentor in HSC Mathematics, Physics, and Chemistry.</li>
+        <li>Hobbies: casual swimming and exploring maths outside my curriculum.</li>
+      </ul>
     </div>
     <div class="side">
+      <div class="img-stack">
 
-      <img src="images/aboutme.jpg" alt="eric eating dinner"> <!-- resize this better so less squished -->
-
+        <img src="images/aboutme1.jpg" alt="eric eating dinner" class="img-stack-1"> <!-- resize this better so less squished -->
+        <img src="images/aboutme2.png" alt="eric teaching" class="img-stack-2">
+      </div>
+      
     </div>
   </div>
 
-  <div class="container" id="Contact Me!" style="background-color: #e0b8e0">
+  <div class="container" id="Contact Me!" style="background-color: #cecece">
     <div class="side">
 
-      <img src="images/contact.jpg">
 
+      <img src="images/contact.jpg" alt="eric with phone" class="img-self"> 
+
+      
     </div>
+
 
     <div class="side">
 
       <div class="header"><h1 style="font-size:5vw">Contact Me!</h1></div>
-      <p class="body-text">here are my links</p>
+      <div class="buttons">
+        <a class="button" href="https://www.linkedin.com/in/ericdotmills5/" target="_blank"><img src="images/linkedin.png" class="button-img">Linkedin</a>
+        <a class="button" href="https://github.com/ericdotmills5" target="_blank"><img src="images/github.png" class="button-img">Github Profile</a>
+        <a class="button" href="mailto:esmanmills28@gmail.com">> Email</a> <!--make this open up with java script with email and link to mailto-->
+
+      </div>
 
     </div>
   </div>
