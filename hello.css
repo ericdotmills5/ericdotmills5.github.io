@@ -55,7 +55,7 @@
   text-align: center;
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
-}
+
 
 .splash {
 
@@ -70,7 +70,7 @@
 }
 
 .body-text li {
-  margin-bottom: 20px;
+  margin-bottom: 1vw;
 }
 
 .container .buttons {
@@ -87,13 +87,14 @@
   
   text-align: center;
   
+  
 }
 
 .container .buttons a {
   margin: 0.75vw;
-  border: 0.3vw solid lightgreen;
-  background-color: green;
-  color: #fff;
+  border: 0.3vw solid #aaaaaa;
+  background-color: #ffdddd;
+  color: #000000;
   font-size: 1.5vw;
   width: 25vw;
   text-decoration: none;
@@ -107,7 +108,7 @@
 
 .button-bottom-right {
   position: absolute;
-  bottom: 20px;
+  bottom: 1vw;
 
   border: 0.3vw solid grey;
   background-color: #000000;
