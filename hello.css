@@ -25,17 +25,24 @@
   border-radius: 10%;
 }
 
-.img-stack-1{
-
+.img-stack-1-right{
   top: 1vw;
   left: 1vw;
-
-
 }
 
-.img-stack-2{
+.img-stack-2-right{
   top: 15vw;
   left: 15vw;
+}
+
+.img-stack-1-left{
+  bottom: 1vw;
+  right: 7vw
+}
+
+.img-stack-2-left{
+  bottom: 15vw;
+  left: -5vw
 }
 
 .right-img-shift{
@@ -92,9 +99,9 @@
 
 .container .buttons a {
   margin: 0.75vw;
-  border: 0.3vw solid #aaaaaa;
-  background-color: #ffdddd;
-  color: #000000;
+  border: 0.3vw solid #999999;
+  background-color: #666666;
+  color: #eeeeee;
   font-size: 1.5vw;
   width: 25vw;
   text-decoration: none;
@@ -107,8 +114,8 @@
 }
 
 .button-bottom-right {
-  position: absolute;
-  bottom: 1vw;
+  position: relative;
+  top: 2vw;
 
   border: 0.3vw solid grey;
   background-color: #000000;
